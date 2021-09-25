@@ -1,0 +1,7 @@
+<suite name="Seb" parallel="false">
+  <test name="Tests">
+    <classes>
+      <class name="tests.MyTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
