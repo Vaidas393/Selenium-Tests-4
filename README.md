@@ -1,4 +1,4 @@
-# SEB Selenium Assignment
+# Selenium Assignment
 
 This project is for educational purposes only. Pull request are welcome! Thank you for your cooperation!
 
