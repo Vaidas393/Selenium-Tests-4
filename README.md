@@ -19,7 +19,7 @@ I prefer Eclipse IDE so example is done using Eclipse
 - Download folder or clone using GIT
 - Import Maven project in Eclipse
 - Run ```testng.xml``` file to start test. (Run As TestNG Suite)
-- Tutorial: https://vimeo.com/613145815
+- Tutorial: https://vimeo.com/614728596
 
 ## Additional comments:
 - AddRemove tests:
