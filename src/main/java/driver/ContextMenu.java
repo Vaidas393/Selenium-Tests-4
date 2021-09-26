@@ -17,7 +17,7 @@ public class ContextMenu extends Driver {
 	
 	 Actions actions = new Actions(driver);
 
-	@FindBy(id="hot-spot")
+    @FindBy(id="hot-spot")
     private WebElement contextArea;
 	
 	public void checkingAlert(){
