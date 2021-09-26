@@ -16,7 +16,7 @@ public class Tables extends Driver {
 	@FindBy(xpath="//*[@id=\"table1\"]/thead/tr/th[1]/span")
     private WebElement lastName;
 	
-	@FindBy(xpath="//*[@id=\"table1\"]/tbody/tr[1]/td[1]")
+    @FindBy(xpath="//*[@id=\"table1\"]/tbody/tr[1]/td[1]")
     private WebElement sortedLastName;
 	
 	public void tableSorting(){
