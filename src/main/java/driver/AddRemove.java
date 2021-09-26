@@ -11,7 +11,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class AddRemove extends Driver {
 
-	@FindBy(linkText="Add/Remove Elements")
+    @FindBy(linkText="Add/Remove Elements")
     private WebElement link;
 
     @FindBy(xpath="//*[@id=\"content\"]/div/button")
@@ -39,14 +39,14 @@ public class AddRemove extends Driver {
 	 }
  	 int size = driver.findElements(By.className("added-manually")).size();
 	 System.out.print("----------------------------------"); 
-     System.out.print("\n"+"Number of buttons added:" + size +"\n");
+     	 System.out.print("\n"+"Number of buttons added:" + size +"\n");
      }
    
    public void removeButtons(){
-	   	 for (int i = 0; i < 20; i++) {
-		 this.deleteButton.click();
-		 }
-		 System.out.print("----------------------------------"); 
+	     for (int i = 0; i < 20; i++) {
+	     this.deleteButton.click();
+	     }
+	     System.out.print("----------------------------------"); 
 	     System.out.print("\n"+"Buttons deleted:" +"\n");
 	     }
     
