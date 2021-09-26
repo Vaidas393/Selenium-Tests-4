@@ -12,7 +12,7 @@ public class Inputs extends Driver {
 	public Inputs(WebDriver driver) {
 		super(driver);
 	}
-	@FindBy(xpath="//*[@id=\"content\"]/div/div/div/input")
+    @FindBy(xpath="//*[@id=\"content\"]/div/div/div/input")
     private WebElement input;
 	
 	public void numberEntering(){
