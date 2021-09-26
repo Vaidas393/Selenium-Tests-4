@@ -69,7 +69,7 @@ public class MyTests {
 	public void DynamiclyLoaded() throws InterruptedException {
 	dynamicLoading = new DynamicLoading(driver);
 	dynamicLoading.visible();
-    Assert.assertTrue(dynamicLoading.getLoadedDiv().isDisplayed()); 
+    	Assert.assertTrue(dynamicLoading.getLoadedDiv().isDisplayed()); 
 	}
 	
 	@Test(priority=7)
@@ -77,7 +77,7 @@ public class MyTests {
 	hower = new Hower(driver);
 	hower.howerCheck(3);
 	int number = 3;
-    Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"content\"]/div/div["+number+"]/div/h5")).isDisplayed()); 
+    	Assert.assertTrue(driver.findElement(By.xpath("//*[@id=\"content\"]/div/div["+number+"]/div/h5")).isDisplayed()); 
 	}
 	
 	@Test(priority=8)
@@ -112,6 +112,6 @@ public class MyTests {
 
 	@AfterClass
 	public void afterClass() {
-     driver.quit();
+     	driver.quit();
 	}
 }
