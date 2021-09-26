@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Dropdown extends Driver {
 	
-	@FindBy(id="dropdown")
+    @FindBy(id="dropdown")
     private WebElement dropdown;
 
     public Dropdown(WebDriver driver) {
