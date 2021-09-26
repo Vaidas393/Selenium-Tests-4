@@ -18,7 +18,7 @@ public class Checkboxes extends Driver {
   	    if(!checkbox.isSelected())
    			checkbox.click();
       }
-  	System.out.print("\n"+"All boxes checked" +"\n");
+  	 System.out.print("\n"+"All boxes checked" +"\n");
   	 System.out.print("----------------------------------"); 
    	}
  
