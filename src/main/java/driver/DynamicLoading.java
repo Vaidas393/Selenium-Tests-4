@@ -13,10 +13,10 @@ public class DynamicLoading extends Driver {
 		super(driver);
 	}
 	
-	@FindBy(xpath="//*[@id=\"start\"]/button")
+    @FindBy(xpath="//*[@id=\"start\"]/button")
     private WebElement button;
 	
-	@FindBy(id="finish")
+    @FindBy(id="finish")
     private WebElement loadedDiv;
 	
 	public void visible(){
